@@ -121,10 +121,10 @@ footer{
 }
 
 .card{
-    cursor: pointer;
     margin-top: 20px;
 }
 .card img{
+    cursor: pointer;
     width: 300px;
     border-radius: 15px;
 }
@@ -157,11 +157,11 @@ footer{
     height: 100%;
     top: 0;
 
-    visibility: hidden;
+   visibility: hidden;
     
 }
 
-#modal .active{
+#modal.active{
     visibility: visible;
 }
 

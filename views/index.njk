@@ -21,7 +21,7 @@
 
     <section id="cards">
       {% for dado in dados %}
-      <div class="card">
+      <div class="card" id="{{dado.ID}}">
           <img src="assets/{{dado.ID}}.png" alt="{{dado.ID}}">
           <div class="info-card">
             <h3>{{dado.name}}</h3>
@@ -38,9 +38,9 @@
       <div class="modal-content">
         <div class="recipe">
           <img src="assets/burger.png" alt="">
-          <h3>Triplo burguer bacon</h3>
-          <p>por Vania Steroski</p>
-          <a href="#">Fechar Modal</a>
+          <h3></h3>
+          <p></p>
+          <a href="#">Fechar</a>
         </div>
       </div>
     </section>
