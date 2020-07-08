@@ -6,18 +6,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img class="logo" src="assets/logo.png" alt="Logo">
-        <div class="nav-bar">
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Receitas</a></li>
-            </ul>
-        </div>
-    </header>
-
+    <section id="content">
+        <header>
+            <img class="logo" src="assets/logo.png" alt="Logo">
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Receitas</a></li>
+                </ul>
+            </div>
+        </header>
     {% block content%} {% endblock%}
+    </section>
 
-    <!--FAZER FOOTER-->
+    <footer>
+        <h3>Todos os direitos reservados, receitas Foodfy.</h3>
+    </footer>
 </body>
 </html>
