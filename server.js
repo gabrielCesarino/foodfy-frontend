@@ -1,7 +1,7 @@
 const express = require ('express')
 const server = express ()
 const nunjucks = require ('nunjucks')
-
+const data = require ("./data")
 
 server.set("view engine", "njk")
 
@@ -13,7 +13,7 @@ nunjucks.configure("views", {
 })
 
 server.get("/", function(req, res){
-    res.render("index")
+    res.render("index", {dados: data})
 })  
 
 
