@@ -20,48 +20,15 @@
     <h1 class="card-title">Mais acessadas</h1>
 
     <section id="cards">
+      {% for dado in dados %}
       <div class="card">
-          <img src="assets/burger.png" alt="">
+          <img src="assets/{{dado.ID}}.png" alt="">
           <div class="info-card">
-            <h3>Triplo bacon burguer</h3>
-            <p>por Jorge Relato</p>       
+            <h3>{{dado.name}}</h3>
+            <p>por {{dado.author}}</p>       
           </div>
       </div>
-      <div class="card">
-          <img src="assets/burger.png" alt="">
-          <div class="info-card">
-            <h3>Triplo bacon burguer</h3>
-            <p>por Jorge Relato</p>       
-          </div>
-      </div>
-      <div class="card">
-          <img src="assets/burger.png" alt="">
-          <div class="info-card">
-            <h3>Triplo bacon burguer</h3>
-            <p>por Jorge Relato</p>       
-          </div>
-      </div>
-      <div class="card">
-          <img src="assets/burger.png" alt="">
-          <div class="info-card">
-            <h3>Triplo bacon burguer</h3>
-            <p>por Jorge Relato</p>       
-          </div>
-      </div>
-      <div class="card">
-          <img src="assets/burger.png" alt="">
-          <div class="info-card">
-            <h3>Triplo bacon burguer</h3>
-            <p>por Jorge Relato</p>       
-          </div>
-      </div>
-      <div class="card">
-          <img src="assets/burger.png" alt="">
-          <div class="info-card">
-            <h3>Triplo bacon burguer</h3>
-            <p>por Jorge Relato</p>       
-          </div>
-      </div>
+      {% endfor %}
         
     </section>
 

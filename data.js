@@ -1,6 +1,6 @@
 module.exports = [
     {
-        ID: "burguer",
+        ID: "burger",
         name: "Triplo bacon burguer",
         author: "Jorge Relato"
     },
@@ -25,8 +25,8 @@ module.exports = [
         author: "Ricardo Golvea"
     },
     {
-        ID: "burguer",
-        name: "Triplo bacon burguer",
+        ID: "asinhas",
+        name: "Asinha de frango ao barbecue",
         author: "Vania Steroski"
     }
 ]
