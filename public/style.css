@@ -87,3 +87,42 @@ header{
 .info-img{
     margin-bottom: 0;
 }
+
+.card-title{
+    font-size: 24px;
+    color: #111111;
+    font-weight: bold;
+
+    margin-top: 40px;
+}
+
+#cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+   
+}
+
+.card{
+    margin-top: 20px;
+}
+.card img{
+    width: 300px;
+    border-radius: 15px;
+}
+
+.info-card{
+    margin-top: 10px;
+}
+
+.info-card h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #111111;
+    line-height: 28px;
+}
+
+.info-card p{
+    font-size: 14px;
+    line-height: 21px;
+}
