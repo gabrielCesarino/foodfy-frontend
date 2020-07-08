@@ -22,14 +22,26 @@
     <section id="cards">
       {% for dado in dados %}
       <div class="card">
-          <img src="assets/{{dado.ID}}.png" alt="">
+          <img src="assets/{{dado.ID}}.png" alt="{{dado.ID}}">
           <div class="info-card">
             <h3>{{dado.name}}</h3>
             <p>por {{dado.author}}</p>       
           </div>
       </div>
       {% endfor %}
-        
     </section>
 
+{% endblock %}
+
+{% block modal %}}
+  <section id="modal">
+      <div class="modal-content">
+        <div class="recipe">
+          <img src="assets/burger.png" alt="">
+          <h3>Triplo burguer bacon</h3>
+          <p>por Vania Steroski</p>
+          <a href="#">Fechar Modal</a>
+        </div>
+      </div>
+    </section>
 {% endblock %}

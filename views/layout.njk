@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    {% block modal %} {% endblock %}
     <section id="content">
         <header>
             <img class="logo" src="assets/logo.png" alt="Logo">
@@ -18,9 +19,10 @@
         </header>
     {% block content%} {% endblock%}
     </section>
-
     <footer>
         <h3>Todos os direitos reservados, receitas Foodfy.</h3>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
