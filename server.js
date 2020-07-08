@@ -16,6 +16,9 @@ server.get("/", function(req, res){
     res.render("index", {dados: data})
 })  
 
+server.get("/about", function (req, res){
+    res.render("about")
+})
 
 
 

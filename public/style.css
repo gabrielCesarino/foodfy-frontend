@@ -22,6 +22,7 @@ header{
     align-items: center;
     width: 100%;
     margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 footer{
@@ -69,7 +70,6 @@ footer{
     border-radius: 30px;
 
     padding-top: 60px;
-    margin-top: 40px;
 
     display: flex;
     justify-content: center;
@@ -145,6 +145,8 @@ footer{
     line-height: 21px;
 }
 
+/* == MODAL ==*/
+
 #modal{
     display: flex;
     align-items: center;
@@ -203,4 +205,23 @@ footer{
     color: #999999;
 
     text-decoration: none;
+}
+
+/* == ABOUT == */
+
+#about h3:nth-child(1){
+    font-size: 24px;
+}
+
+#about h3{
+    font-size: 20px;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+#about p{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    color: #444444;
 }
