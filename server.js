@@ -14,7 +14,7 @@ nunjucks.configure("views", {
 
 server.get("/", function(req, res){
     res.render("index")
-})
+})  
 
 
 
