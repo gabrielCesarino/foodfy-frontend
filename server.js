@@ -20,6 +20,10 @@ server.get("/about", function (req, res){
     res.render("about")
 })
 
+server.get("/recipes", function(req, res){
+    res.render("recipes", {dados: data})
+})
+
 
 
 

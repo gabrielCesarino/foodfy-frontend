@@ -1,26 +1,8 @@
-
 {% extends "layout.njk" %}
 
-{% block content%}
+{% block content %}
 
-    <section id="info-wrapper">
-        <div class="container">
-            <div class="info-content">
-                <h1>As melhores receitas</h1>
-                <p>Aprenda a construir os melhores pratos
-                    com receitas criadas por profissionais
-                    do mundo inteiro.
-                </p>
-            </div>
-            <div class="info-img">
-                <img src="assets/chef.png" alt="Chefe">
-            </div>
-        </div>
-    </section>
-
-    <h1 class="card-title">Mais acessadas</h1>
-
-    <section id="cards">
+  <section id="cards">
       {% for dado in dados %}
       <div class="card" id="{{dado.ID}}">
           <img src="assets/{{dado.ID}}.png" alt="{{dado.ID}}">
@@ -45,4 +27,5 @@
         </div>
       </div>
     </section>
+    
 {% endblock %}
